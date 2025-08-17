@@ -17,15 +17,15 @@ class MyApp extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              Container(width: 100.0, color: Colors.red),
+              Container(width: 110.0, color: Colors.red),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Container(height: 100.0, width: 100.0, color: Colors.yellow),
-                  Container(height: 100.0, width: 100.0, color: Colors.green),
+                  Container(height: 110.0, width: 110.0, color: Colors.yellow),
+                  Container(height: 110.0, width: 110.0, color: Colors.green),
                 ],
               ),
-              Container(width: 100.0, color: Colors.blue),
+              Container(width: 110.0, color: Colors.blue),
             ],
           ),
         ),
